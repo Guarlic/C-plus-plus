@@ -1,6 +1,6 @@
 #include <cstdio>
-#include <algorithm>
 #include <array>
+#include <algorithm>
 
 using namespace std;
 
