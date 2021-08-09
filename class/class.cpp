@@ -1,10 +1,5 @@
+#include "class.hpp"
 #include <cstdio>
-
-class myClass {
-public:
-    int x;
-    int y;
-};
 
 int main() {
     myClass* mycls = new myClass;
