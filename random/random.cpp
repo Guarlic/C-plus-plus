@@ -4,10 +4,12 @@
 #include <array>
 #include <algorithm>
 
+using namespace std;
+
 int main() {
     srand(time(0));
     
-    std::array<int, 10> ar;
+    array<int, 10> ar;
     
     for (int i = 0; i < 10; i++) {
         ar[i] = rand() % 10 + 1;
