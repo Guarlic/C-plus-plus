@@ -1,5 +1,5 @@
 ## C-plus-plus
-제 Github의 C-plus-plus 레파지토리는
+- 제 Github의 C-plus-plus 레파지토리는
 
 ```c++
 #include <cstdio>
@@ -11,9 +11,9 @@ int main() {
 }
 ```
 
-같은 **C++ 소스코드** 들을 폴더들에 올려놨습니다.
+- 같은 **C++ 소스코드** 들을 폴더들에 올려놨습니다.
 ## Git Clone
-폴더/파일 다운: ```git clone https://www.github.com/Guarlic/C-plus-plus``` 명령어를 **Terminal/iTerm** 에 입력
+- 폴더/파일 다운: ```git clone https://www.github.com/Guarlic/C-plus-plus``` 명령어를 **Terminal/iTerm** 에 입력
 ## End
 제 코드를 사용해주시거나, *(그럴 일은 없겠지만)*
 
