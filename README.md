@@ -1,5 +1,5 @@
 ## C-plus-plus
-- 제 Github의 C-plus-plus 레파지토리는
+- 제 C-plus-plus 레파지토리는
 
 ```c++
 #include <cstdio>
