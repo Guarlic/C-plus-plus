@@ -1,5 +1,5 @@
 ## C-plus-plus
-- 제 C-plus-plus 레파지토리는
+- C-plus-plus 레파지토리에는
 
 ```c++
 #include <cstdio>
