@@ -13,7 +13,7 @@ int main() {
     
     printf("제가 생각한 숫자를 맞춰보세요 (1 ~ 100). ");
     
-    while (turn <= 10) {
+    while (turn < 10) {
        turn++;
         
        scanf("%d", &guess);
