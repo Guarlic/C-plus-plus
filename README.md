@@ -11,7 +11,7 @@ int main() {
 }
 ```
 
-같은 **C++ 소스코드** 들을 폴더들에 올려놨습니다.
+같은 **C++ 소스코드** 들을 폴더들에 올려져있습니다.
 ## Git Clone
 - 폴더/파일 다운: ```git clone https://www.github.com/Guarlic/C-plus-plus``` 명령어를 각 OS에 맞는 소프트웨어에 입력
 - 맥: **Terminal/iTerm** , 윈도우: **cmd**
