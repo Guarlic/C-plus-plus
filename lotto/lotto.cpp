@@ -1,8 +1,8 @@
+#include <algorithm>
 #include <cstdio>
 #include <cstdlib>
 #include <ctime>
 #include <array>
-#include <algorithm>
 
 using namespace std;
 
