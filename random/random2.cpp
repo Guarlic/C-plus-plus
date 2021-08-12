@@ -10,7 +10,10 @@ int main() {
     srand(time(0));
     
     int num;
+
+    printf("Inser num: ");
     scanf("%d", &num);
+
     int* ar = new int[num];
     
     for (int i = 0; i < num; i++) {
