@@ -9,20 +9,23 @@ using namespace std;
 int main() {
     srand(time(0));
     
-    int num;
+    int n;
+    int m;
 
-    printf("Inser num: ");
-    scanf("%d", &num);
+    printf("Inser num of random-nums: ");
+    scanf("%d", &n);
+    printf("Insert num of random(1~n): ");
+    scanf("%d", &m);
 
-    int* ar = new int[num];
+    int* ar = new int[n];
     
-    for (int i = 0; i < num; i++) {
-        ar[i] = rand() % 10 + 1;
+    for (int i = 0; i < n; i++) {
+        ar[i] = rand() % m + 1;
     }
     
-    sort(ar, ar + num);
+    sort(ar, ar + n);
     
-    for (int i = 0; i < num; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", ar[i]);
     }
     
