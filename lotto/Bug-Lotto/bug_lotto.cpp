@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    srand((unsigned)time(NULL));
+    srand(time(0));
     
     array<int, 6> lotto;
     int num;
