@@ -23,7 +23,6 @@ int main() {
     swap(&x, &y);
 
     printf("swap ---\n");
-
     printf("x: %d\ny: %d\n", x, y);
 
     return 0;
