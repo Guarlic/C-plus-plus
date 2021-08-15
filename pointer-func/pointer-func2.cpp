@@ -1,6 +1,6 @@
 #include <cstdio>
 
-void scs(char* txt, char* var) {
+void scs(const char* txt, char* var) {
     printf("%s", txt);
     scanf("%s", var);
 }
