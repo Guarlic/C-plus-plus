@@ -30,16 +30,16 @@ int main() {
     head->next = Student1;
 
     strcpy(Student1->name, "Student1");
-    Student1->grade = 5;
+    Student1->grade = 3;
     Student1->Class = 10;
-    Student1->num = 10;
+    Student1->num = 9;
     Student1->prev = head;
     Student1->next = Student2;
 
     strcpy(Student2->name, "Student2");
     Student2->grade = 3;
-    Student2->Class = 4;
-    Student2->num = 19;
+    Student2->Class = 5;
+    Student2->num = 20;
     Student2->prev = Student1;
     Student2->next = tail;
 
