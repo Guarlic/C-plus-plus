@@ -20,9 +20,10 @@ public:
 };
 
 int main() {
-    Calculator calc;
-    scanf("%d%c%d", &calc.Num1, &calc.Operator, &calc.Num2);
-    printf("Result: %d\n", calc.Calculate());
+    Calculator* calc = new Calculator;
+    scanf("%d%c%d", &calc->Num1, &calc->Operator, &calc->Num2);
+    printf("Result: %d\n", calc->Calculate());
 
+    delete calc;
     return 0;
 }
