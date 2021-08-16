@@ -49,11 +49,11 @@ int main() {
     Student* curr = head;
     Student* NewStudent = new Student;
     int location;
-    const int ListSize = 2;
+    const int SizeofList = 2;
 
     Iputnget("Location: ", &location);
 
-    for (int i = 0; i < location / ListSize - 1; i++) {
+    for (int i = 0; i < location / SizeofList - 1; i++) {
         curr = curr->next;
     }
 
