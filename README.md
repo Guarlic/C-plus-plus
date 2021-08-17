@@ -1,5 +1,5 @@
 ## C-plus-plus
-- Guarlic Github 링크: **[Github/Guarlic](https://github.com/Guarlic)**
+- Guarlic Github 링크: **[Github C++러](https://github.com/Guarlic)**
 - C-plus-plus 레파지토리에는
 
 ```c++
