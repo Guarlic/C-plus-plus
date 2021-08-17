@@ -9,14 +9,16 @@ int main() {
 
     head->next = node1;
     node1->data = 10;
+    node1->data2 = 'a';
     node1->next = node2;
     node2->data = 20;
+    node2->data2 = 'b';
     node2->next = NULL;
 
     node* curr = head->next;
 
     while (curr != NULL) {
-        printf("%d\n", curr->data);
+        printf("%d %c\n", curr->data, curr->data2);
         curr = curr->next;
     }
 
