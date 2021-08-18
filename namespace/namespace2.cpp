@@ -15,12 +15,10 @@ namespace MyNamespace {
     };
 }
 
-using namespace MyNamespace;
-
 int main() {
-    node* head = new node;
-    node* node1 = new node;
-    node* node2 = new node;
+    MyNamespace::node* head = new MyNamespace::node;
+    MyNamespace::node* node1 = new MyNamespace::node;
+    MyNamespace::node* node2 = new MyNamespace::node;
     
     head->next = node1;
 
@@ -36,13 +34,13 @@ int main() {
     node2->data.num = 11;
     node2->next = NULL;
 
-    node* curr = head->next;
+    MyNamespace::node* curr = head->next;
 
     while (curr != NULL) {
-        printf("Name: %s\n", curr->data.name);
+        printf("\nName: %s\n", curr->data.name);
         printf("Grade: %d\n", curr->data.grade);
         printf("Class: %d\n", curr->data.Class);
-        printf("Number: %d\n", curr->data.num);
+        printf("Number: %d\n\n", curr->data.num);
 
         curr = curr->next;
     }
