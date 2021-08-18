@@ -31,5 +31,7 @@ void MyGet(const char* Text, void* Var) {
                     break;
             }
         }
+
+        break;
     }
 }
