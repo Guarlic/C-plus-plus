@@ -14,12 +14,12 @@ bool rule(Student a, Student b) {
 }
 
 int main() {
-    Student ar[4];
+    std::array<Student, 4> ar;
 
     for (int i = 0; i < 4; i++)
         scanf("%s%d%d", ar[i].name, &ar[i].coding, &ar[i].math);
 
-    std::sort(ar, ar + 4, rule);
+    std::sort(ar.begin(), ar.end(), rule);
     printf("\n");
 
     for (int i = 0; i < 4; i++)
