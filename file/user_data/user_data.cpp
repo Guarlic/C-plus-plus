@@ -6,6 +6,11 @@ public:
     char pswd[30];
 };
 
+void Iputnget(const char* Text, int* Var) {
+    printf("%s", Text);
+    scanf("%d", Var);
+}
+
 void Sputnget(const char* Text, char* Var) {
     printf("%s", Text);
     scanf("%s", Var);
@@ -26,8 +31,7 @@ int main() {
     fp = fopen("info.txt", "w");
 
     printf("\n* 데이터 입력 -----\n");
-    printf("Num of Users: ");
-    scanf("%d", &cnt);
+    Iputnget("Num of Users: ", &cnt);
 
     User* user = new User[cnt];
 
