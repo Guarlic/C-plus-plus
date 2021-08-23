@@ -21,7 +21,7 @@ int main() {
     int cnt;
     int input;
     char temp;
-    fp = fopen("info.txt", "r");
+    fp = fopen("info.txt", "w+");
 
     printf("* 이전 데이터 -----\n");
     while (fscanf(fp, "%c", &temp) != EOF) {
