@@ -34,6 +34,17 @@ int main() {
     switch (input) {
         case 1:
             fp = fopen("info.txt", "w");
+            Iputnget("[초기화]\n1) 나가기 2)데이터 추가\n", &input);
+            
+            switch (input) {
+                case 1:
+                    return 0;
+                case 2:
+                    break;
+                default:
+                    printf("잘못 입력하셨습니다.\n");
+            }
+
             break;
         case 2:
             fp = fopen("info.txt", "a");
