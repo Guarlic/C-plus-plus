@@ -29,7 +29,7 @@ int main() {
     }
     
     fclose(fp);
-    Iputnget("[데이터 모드]\n1) 초기화 2)추가 3)취소\n", &input);
+    Iputnget("\n[데이터 모드]\n1) 초기화 2)추가 3)취소\n", &input);
     
     switch (input) {
         case 1:
