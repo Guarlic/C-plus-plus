@@ -23,7 +23,7 @@ int main() {
     char temp;
     fp = fopen("info.txt", "w+");
 
-    printf("* 이전 데이터 -----\n");
+    printf("* 유저 데이터 -----\n");
     while (fscanf(fp, "%c", &temp) != EOF) {
         printf("%c", temp);
     }
