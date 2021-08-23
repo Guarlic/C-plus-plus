@@ -38,6 +38,7 @@ int main() {
             
             switch (input) {
                 case 1:
+                    fclose(fp);
                     return 0;
                 case 2:
                     break;
