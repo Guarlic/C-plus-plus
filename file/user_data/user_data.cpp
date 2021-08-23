@@ -19,6 +19,7 @@ void Sputnget(const char* Text, char* Var) {
 int main() {
     FILE* fp;
     int cnt;
+    int input;
     char temp;
     fp = fopen("info.txt", "r");
 
@@ -28,7 +29,20 @@ int main() {
     }
     
     fclose(fp);
-    fp = fopen("info.txt", "w");
+    Iputnget("[데이터 모드]\n1) 초기화 2)추가 3)취소\n", &input);
+    
+    switch (input) {
+        case 1:
+            fp = fopen("info.txt", "w");
+            break;
+        case 2:
+            fp = fopen("info.txt", "a");
+            break;
+        case 3:
+            return 0;
+        default:
+            printf("잘못 입력했습니다.\n");
+    }
 
     printf("\n* 데이터 입력 -----\n");
     Iputnget("Num of Users: ", &cnt);
