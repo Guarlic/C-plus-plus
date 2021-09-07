@@ -8,7 +8,7 @@ int main() {
     char temp;
     char c;
     vector<int> v;
-    FILE* fp = fopen("/Users/jyjung/Desktop/Desktop/graph/data.txt", "r");
+    FILE* fp = fopen("/Users/jyjung/Desktop/Desktop/graph/data.txt", "w+");
 
     printf("* Prev Graph -----\n");
 
