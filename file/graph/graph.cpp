@@ -8,7 +8,7 @@ int main() {
     char temp;
     char c;
     vector<int> v;
-    FILE* fp = fopen("/Users/jyjung/Desktop/Desktop/C-plus-plus/file/graph/data.txt", "w+");
+    FILE* fp = fopen("data.txt", "w+");
 
     printf("* Prev Graph -----\n");
 
@@ -44,7 +44,7 @@ save:
 
     switch(temp) {
         case 'y':
-            fp = fopen("/Users/jyjung/Desktop/Desktop/C-plus-plus/file/graph/data.txt", "w");
+            fp = fopen("data.txt", "w");
             for (int i = 0; i < input; i++) {
                 for (int j = 0; j < v[i]; j++)
                     fprintf(fp, "■");
