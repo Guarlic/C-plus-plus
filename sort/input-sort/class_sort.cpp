@@ -7,8 +7,13 @@ public:
     int score;
 };
 
-bool rule(Student a, Student b) { return a.score > b.score; }
-void stdt_sort(Student* a, Student* b) { std::sort(a, b, rule); }
+bool rule(Student a, Student b) {
+    return a.score > b.score;
+}
+
+void stdt_sort(Student* a, Student* b) {
+    std::sort(a, b, rule);
+}
 
 int main() {
     Student ar[4];
